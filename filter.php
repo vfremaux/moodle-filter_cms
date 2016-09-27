@@ -43,7 +43,7 @@ class filter_cms extends moodle_text_filter {
     /// There might be an email in here somewhere so continue ...
         $matches = array();
 
-    /// regular expression to define a standard email string.
+    /// regular expression to define a cmspage placeholder.
         $cmspageregex = '/\{cmspage\s+?(\d+)\}/';
 
     /// pattern to find a cms placeholder with the page content text.
